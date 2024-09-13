@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Dynamic Resume Builder Designed by Sawera Batool</h1>
+
+    <div class="container">
+        <!-- Resume Input Form -->
+        <form id="resumeForm">
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required><br>
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" placeholder="Your Phone Number" required><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Your Address" required><br> <!-- Changed type to "text" -->
+            </fieldset>
+
+            <!-- Education Section -->
+            <fieldset>
+                <legend>Education</legend>
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" placeholder="Degree" required><br>
+
+                <label for="institution">Institution:</label>
+                <input type="text" id="institution" placeholder="Institution Name" required><br>
+            </fieldset>
+
+            <!-- Work Experience Section -->
+            <fieldset>
+                <legend>Work Experience</legend>
+                <label for="jobTitle">Job Title:</label>
+                <input type="text" id="jobTitle" placeholder="Job Title" required><br>
+
+                <label for="company">Company:</label>
+                <input type="text" id="company" placeholder="Company" required><br>
+            </fieldset>
+
+            <!-- Skills Section -->
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skills">Skills:</label>
+                <input type="text" id="skills" placeholder="Skills" required><br>
+            </fieldset>
+
+            <!-- Achievements Section -->
+            <fieldset>
+                <legend>Achievements</legend>
+                <label for="achievements">Achievements:</label>
+                <input type="text" id="achievements" placeholder="Achievements" required><br>
+            </fieldset>
+
+            <!-- Languages Section -->
+            <fieldset>
+                <legend>Languages</legend>
+                <label for="languages">Languages:</label>
+                <input type="text" id="languages" placeholder="Languages" required><br>
+            </fieldset>
+
+            <!-- Generate Resume Button -->
+            <button type="submit">Generate Resume Below</button>
+        </form>
+    </div>
+
+    <div id="resumeOutput">
+        <!-- Resume Will Be Generated Below -->
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
