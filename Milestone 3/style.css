@@ -1,0 +1,85 @@
+body {
+    font-family: "Times New Roman", "Times" , "serif";
+    margin: 20px;
+    padding: 0;
+    background-color:#f8f0f3 ; 
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffe6f0; /* Light pink form background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+fieldset {
+    border: 2px solid #ffb6c1; /* Light pink border */
+    border-radius: 8px;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-color: #ffe6f0; /* Light pink background */
+    color: #2c3e50;
+    font-size: 16px;
+    padding: 40px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ffb6c1; /* Light pink border */
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc1cc; /* Light pink button background */
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #ff99aa; /* Slightly darker pink on hover */
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid  #ff99aa;
+    border-radius: 8px;
+    background-color: #f8f0f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {
+    color: #ff99aa;
+} 
